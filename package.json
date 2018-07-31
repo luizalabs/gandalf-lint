@@ -1,0 +1,25 @@
+{
+  "name": "gandalf-lint",
+  "version": "0.0.0",
+  "description": "Your bad code shall not pass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftboxLab/gandalf-lint.git"
+  },
+  "keywords": [
+    "lint",
+    "js",
+    "frontend",
+    "web"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoftboxLab/gandalf-lint/issues"
+  },
+  "homepage": "https://github.com/SoftboxLab/gandalf-lint#readme"
+}
