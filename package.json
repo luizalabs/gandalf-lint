@@ -22,9 +22,4 @@
     "url": "https://github.com/SoftboxLab/gandalf-lint/issues"
   },
   "homepage": "https://github.com/SoftboxLab/gandalf-lint#readme",
-  "peerDependencies": {
-    "eslint": "^5.2.0",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.13.0"
-  }
 }
