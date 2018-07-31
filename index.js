@@ -13,7 +13,6 @@ module.exports = {
 
     'block-scoped-var': 'error',
 
-    complexity: ['off', 11],
 
     'class-methods-use-this': ['error', {
       exceptMethods: [],
@@ -25,11 +24,9 @@ module.exports = {
 
     'default-case': ['error', { commentPattern: '^no default$' }],
 
-    'dot-notation': ['error', { allowKeywords: true }],
 
     'dot-location': ['error', 'property'],
 
-    eqeqeq: ['error', 'always', { null: 'ignore' }],
 
     'guard-for-in': 'error',
 
@@ -39,11 +36,9 @@ module.exports = {
 
     'no-caller': 'error',
 
-    'no-case-declarations': 'error',
 
     'no-div-regex': 'off',
 
-    'no-else-return': ['error', { allowElseIf: false }],
 
     'no-empty-function': ['error', {
       allow: [
@@ -57,7 +52,6 @@ module.exports = {
 
     'no-eq-null': 'off',
 
-    'no-eval': 'error',
 
     'no-extend-native': 'error',
 
@@ -85,7 +79,6 @@ module.exports = {
 
     'no-invalid-this': 'off',
 
-    'no-iterator': 'error',
 
     'no-labels': ['error', { allowLoop: false, allowSwitch: false }],
 
@@ -108,19 +101,12 @@ module.exports = {
 
     'no-new': 'error',
 
-    'no-new-func': 'error',
 
-    'no-new-wrappers': 'error',
 
     'no-octal': 'error',
 
     'no-octal-escape': 'error',
 
-    'no-param-reassign': ['error', {
-      props: true,
-      ignorePropertyModificationsFor: [
-      ]
-    }],
 
     'no-proto': 'error',
 
@@ -192,11 +178,9 @@ module.exports = {
 
     'no-unused-labels': 'error',
 
-    'no-useless-call': 'off',
 
     'no-useless-concat': 'error',
 
-    'no-useless-escape': 'error',
 
     'no-useless-return': 'error',
 
@@ -208,13 +192,11 @@ module.exports = {
 
     'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
 
-    radix: 'error',
 
     'require-await': 'off',
 
     'vars-on-top': 'error',
 
-    'wrap-iife': ['error', 'outside', { functionPrototypeMethods: false }],
 
     yoda: 'error',
 
@@ -338,7 +320,7 @@ module.exports = {
       'below'
     ],
     'brace-style': 'error',
-    'no-else-return': 'error',
+    'no-else-return': ['error', { allowElseIf: false }],
     'spaced-comment': [
       'error',
       'always'
@@ -363,8 +345,9 @@ module.exports = {
     'sort-imports': 'error',
     'complexity': [
       'error',
-      2
+      3
     ],
+    'no-var': 'error',
     'no-useless-call': 'error',
     'strict': 'error'
   }
