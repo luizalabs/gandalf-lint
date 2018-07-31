@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    'standard'
+    'eslint-config-standard'
   ].map(require.resolve),
   parserOptions: {
     ecmaVersion: 2018,
