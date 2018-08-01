@@ -4,9 +4,10 @@
   <img src="https://img00.deviantart.net/51e6/i/2004/144/1/b/you_shall_not_pass.jpg"/>
 </p>
 
-<center>
-  **BAD CODE SHALL NOT PASS!**
-</center>
+
+<p align="center" style="font-weight:bold">
+**BAD CODE SHALL NOT PASS!**
+</p>
 
 ## Install
 Dependencies via NPM:
