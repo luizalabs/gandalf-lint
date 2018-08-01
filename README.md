@@ -5,8 +5,8 @@
 </p>
 
 
-<p align="center" style="font-weight:bold">
-**BAD CODE SHALL NOT PASS!**
+<p align="center" style="font-weight: bold;">
+<b>BAD CODE SHALL NOT PASS!</b>
 </p>
 
 ## Install
