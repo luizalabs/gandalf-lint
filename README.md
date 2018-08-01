@@ -1,10 +1,13 @@
 # gandalf-lint
-<center>
-![alt text](https://img00.deviantart.net/51e6/i/2004/144/1/b/you_shall_not_pass.jpg)
+
+<p align="center">
+  <img src="https://img00.deviantart.net/51e6/i/2004/144/1/b/you_shall_not_pass.jpg"/>
+</p>
 
 
-**BAD CODE SHALL NOT PASS!**
-</center>
+<h3 align="center" style="font-weight: bold;">
+  <b>BAD CODE SHALL NOT PASS!</b>
+</h3>
 
 ## Install
 Dependencies via NPM:
@@ -56,7 +59,7 @@ or using yarn:
 yarn glint
 ```
 
-**If you don't fell like creating any scripts, feel free to have your files linted on the fly by your IDE (did you remember to install the `eslint` plugin on your IDE?)!**
+**If you don't fell like creating any scripts, feel free to have your files linted on the fly by your IDE (did you remember to install the `eslint` plugin on your IDE?)**
 
 
 
