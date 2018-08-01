@@ -2,7 +2,7 @@
 
 <p align="center">
 	<img src="https://img00.deviantart.net/51e6/i/2004/144/1/b/you_shall_not_pass.jpg"/><br/>
-	Source: <a href="https://www.deviantart.com/captaind/art/you-shall-not-pass-7505473">Deviantart - CaptainD</a>
+	image source: <a href="https://www.deviantart.com/captaind/art/you-shall-not-pass-7505473">Deviantart - CaptainD</a>
 </p>
 
 
@@ -65,8 +65,6 @@ yarn glint
 
 
 # License
-
-We are using rules from `eslint-config-standard` here's the [license from `eslint-config-standard` code](https://github.com/standard/eslint-config-standard)
 
 The MIT License (MIT)
 
