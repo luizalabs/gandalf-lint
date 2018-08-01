@@ -5,9 +5,9 @@
 </p>
 
 
-<p align="center" style="font-weight: bold;">
-<b>BAD CODE SHALL NOT PASS!</b>
-</p>
+<h3 align="center" style="font-weight: bold;">
+  <b>BAD CODE SHALL NOT PASS!</b>
+</h3>
 
 ## Install
 Dependencies via NPM:
