@@ -2,12 +2,11 @@
 
 <p align="center">
   <img src="https://img00.deviantart.net/51e6/i/2004/144/1/b/you_shall_not_pass.jpg"/>
-  **BAD CODE SHALL NOT PASS!**
 </p>
 
-<p align="center">
+<center>
   **BAD CODE SHALL NOT PASS!**
-</p>
+</center>
 
 ## Install
 Dependencies via NPM:
