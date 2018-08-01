@@ -66,8 +66,6 @@ yarn glint
 
 # License
 
-We are using rules from `eslint-config-standard` here's the [license from `eslint-config-standard` code](https://github.com/standard/eslint-config-standard)
-
 The MIT License (MIT)
 
 [Copyright (c) Feross Aboukhadijeh](https://github.com/standard/eslint-config-standard)
