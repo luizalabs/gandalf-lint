@@ -117,4 +117,13 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
+MIT License
+
+Copyright (c) 2012 Airbnb
+
+Copyright (c) Feross Aboukhadijeh
+
+
+---
+
 This project licence is also MIT.
