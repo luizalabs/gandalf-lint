@@ -5,6 +5,10 @@
   **BAD CODE SHALL NOT PASS!**
 </p>
 
+<p align="center">
+  **BAD CODE SHALL NOT PASS!**
+</p>
+
 ## Install
 Dependencies via NPM:
 ```bash
