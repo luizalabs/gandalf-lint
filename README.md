@@ -13,29 +13,29 @@
 ## Install
 Dependencies via NPM:
 ```bash
-npm install --save-dev eslint-config-standard eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node
+npm install --save-dev eslint eslint-config-standard eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node
 ```
 
 or via yarn:
 ```bash
-yarn add --dev eslint-config-standard eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node
+yarn add --dev eslint eslint-config-standard eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node
 ```
 
 After install the dependencies, you will install the most powerful linter of the middle-earth:
 ```bash
-npm install git+https://github.com/SoftboxLab/gandalf-lint.git
+npm install --save-dev @softboxlab/eslint-config-gandalf-lint
 ```
 
 or via yarn:
 ```bash
-yarn add https://github.com/SoftboxLab/gandalf-lint.git
+yarn add --dev @softboxlab/eslint-config-gandalf-lint
 ```
 
 ## Configure
 Call the white wizard by creating a `.eslintrc` file on your root project and writing in it:
 ```javascript
 {
-  "extends": "gandalf-lint"
+  "extends": "@softboxlab/gandalf-lint"
 }
 ```
 

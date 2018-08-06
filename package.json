@@ -16,7 +16,7 @@
     "frontend",
     "web"
   ],
-  "author": "Pablo Henrique Penha Silva <pablohpsilva@gmail.com>",
+  "author": "Pablo Henrique Penha Silva <pablohpsilva@gmail.com>, Victor Maestri <victormaestri@softbox.com.br>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SoftboxLab/gandalf-lint/issues"
