@@ -268,7 +268,7 @@ module.exports = {
     ],
     'arrow-body-style': [
       'error',
-      'always'
+      'as-needed'
     ],
     'no-confusing-arrow': 'error',
     'implicit-arrow-linebreak': [

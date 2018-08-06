@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-gandalf-lint",
+  "name": "@softboxlab/eslint-config-gandalf-lint",
   "version": "0.0.3",
   "description": "Your bad code shall not pass",
   "main": "index.js",
@@ -16,10 +16,13 @@
     "frontend",
     "web"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Pablo Henrique Penha Silva <pablohpsilva@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/SoftboxLab/gandalf-lint/issues"
   },
-  "homepage": "https://github.com/SoftboxLab/gandalf-lint#readme"
+  "homepage": "https://github.com/SoftboxLab/gandalf-lint#readme",
+  "directories": {
+    "test": "test"
+  }
 }
