@@ -4,7 +4,11 @@
   "description": "Your bad code shall not pass",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release:tags": "git push && git push --tags",
+    "release:patch": "npm version patch && npm run release:tags",
+    "release:minor": "npm version minor && npm run release:tags",
+    "release:major": "npm version major && npm run release:tags"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+  - 9.10.0
+sudo: false
+# script:
+#   - yarn lintfix
+#   - yarn build
+branch:
+  only:
+    - master
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: pablohpsilva@gmail.com
+  api_key:
+    secure: yCe/pJe5r9ot7S+03opWuaM9np0X/Pyzh7cLYjpOhgw/aqKw640r74+H+vVl8utY02mle4Pg8Aqt0KK30P10qFpR1dZRjfDasnU18ADX8xd83FZs0uyky0FgLmcJZwDJQ/Wperzu9jj5e0w05t5YTBDB6mMxtCkGeA77wzpxN//Bvn0DZ1O+o51Y83HI7gD+xTs9Q3wTemln6NhKZEwcpBLH6HKleqrOlO62fNOEqlpKxBP7xYj1Zkxvd6yQcivzFkNl9bwpGzBS/FuA0B7ZUtNTzKxmKWpjKWwXVP99/CTr4srKkCqG75OTgLwfH/F2dqdhDSgyaZxj9O5w/fJxf9eXVzRUk3fp/B8cATidj2e8Wjz4yKFmF0p8sp1M+DdHCb7VjIdBruvQ9mzJ2Uyj2uYlu5Y66JWrSqiqrXXBwSxiAL1jjJuKKArmYFIUfjq9iLl8kgq+vCjvJzf9ho0HvttO9RXMNg4EHqd9/kPiM6CkiThI0mHIUxQ+VaLksHa6AvWCKyRajR9pbe2MCqd8JVk0eF3TWkVWoPQBFLnegt1fRBU7XHQIKHpupj5Y0QB7bAMoSpkGq6H0TPMaHXz+Rf3knVFb++6SD3/NrI1O7APbYyMapj7WKXeaAiKAFZC54Pkq8XEzrFVzgmr1ynH3QNMKfh8UiAgO+/nNrj0yrIs=
+  on:
+    tags: true
+    repo: SoftboxLab/gandalf-lint
+
