@@ -28,5 +28,15 @@
   "homepage": "https://github.com/SoftboxLab/gandalf-lint#readme",
   "directories": {
     "test": "test"
+  },
+  "dependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "eslint-plugin-vue": "^5.0.0-beta.2"
   }
 }
