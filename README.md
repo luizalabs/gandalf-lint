@@ -13,12 +13,12 @@
 ## Install
 Dependencies via NPM:
 ```bash
-npm install --save-dev eslint eslint-config-standard eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node
+npm install --save-dev eslint eslint-config-gandalf-lint eslint-config-standard eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-sort-imports-es6-autofix eslint-plugin-standard eslint-plugin-vue
 ```
 
 or via yarn:
 ```bash
-yarn add --dev eslint eslint-config-standard eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node
+yarn add --dev eslint eslint-config-gandalf-lint eslint-config-standard eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-sort-imports-es6-autofix eslint-plugin-standard eslint-plugin-vue
 ```
 
 After install the dependencies, you will install the most powerful linter of the middle-earth:

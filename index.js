@@ -1,12 +1,11 @@
 module.exports = {
   extends: [
     'eslint-config-standard',
-    'plugin:react/recommended',
-    'plugin:vue/recommended',
-    './rules/extra',
     './rules/gandalf',
   ].map(require.resolve),
   plugins: [
+    'eslint-plugin-vue',
+    'eslint-plugin-react',
     'sort-imports-es6-autofix'
   ],
   parserOptions: {
@@ -16,5 +15,15 @@ module.exports = {
       jsx: true
     }
   },
-  rules: {}
+  rules: {
+    'sort-imports-es6-autofix/sort-imports-es6': [
+      2,
+      {
+        ignoreCase: false,
+        ignoreMemberSort: false,
+        memberSyntaxSortOrder: ["none", "all", "multiple", "single"]
+      }
+    ],
+    'class-methods-use-this': 0
+  }
 };
