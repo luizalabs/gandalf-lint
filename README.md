@@ -13,29 +13,19 @@
 ## Install
 Dependencies via NPM:
 ```bash
-npm install --save-dev eslint eslint-config-standard eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-sort-imports-es6-autofix eslint-plugin-standard eslint-plugin-vue
+npm install --save-dev eslint @softboxlab/eslint-config-gandalf-lint eslint-config-standard eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-sort-imports-es6-autofix eslint-plugin-standard eslint-plugin-vue
 ```
 
 or via yarn:
 ```bash
-yarn add --dev eslint eslint-config-standard eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-sort-imports-es6-autofix eslint-plugin-standard eslint-plugin-vue
-```
-
-After install the dependencies, you will install the most powerful linter of the middle-earth:
-```bash
-npm install --save-dev @softboxlab/eslint-config-gandalf-lint
-```
-
-or via yarn:
-```bash
-yarn add --dev @softboxlab/eslint-config-gandalf-lint
+yarn add --dev eslint @softboxlab/eslint-config-gandalf-lint eslint-config-standard eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-sort-imports-es6-autofix eslint-plugin-standard eslint-plugin-vue
 ```
 
 ## Configure
 Call the white wizard by creating a `.eslintrc` file on your root project and writing in it:
 ```javascript
 {
-  "extends": "@softboxlab/gandalf-lint"
+  "extends": "@softboxlab/eslint-config-gandalf-lint"
 }
 ```
 
