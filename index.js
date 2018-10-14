@@ -3,10 +3,7 @@ module.exports = {
   plugins: ["sort-imports-es6-autofix"],
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: "module",
-    ecmaFeatures: {
-      jsx: true
-    }
+    sourceType: "module"
   },
   rules: {
     "sort-imports-es6-autofix/sort-imports-es6": [
