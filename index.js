@@ -1,22 +1,12 @@
 module.exports = {
-  extends: [
-    'eslint-config-standard',
-    './rules/gandalf',
-  ].map(require.resolve),
-  plugins: [
-    'eslint-plugin-vue',
-    'eslint-plugin-react',
-    'sort-imports-es6-autofix'
-  ],
+  extends: ["eslint-config-standard", "./rules/gandalf"].map(require.resolve),
+  plugins: ["sort-imports-es6-autofix"],
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: 'module',
-    ecmaFeatures: {
-      jsx: true
-    }
+    sourceType: "module"
   },
   rules: {
-    'sort-imports-es6-autofix/sort-imports-es6': [
+    "sort-imports-es6-autofix/sort-imports-es6": [
       2,
       {
         ignoreCase: false,
@@ -24,6 +14,6 @@ module.exports = {
         memberSyntaxSortOrder: ["none", "all", "multiple", "single"]
       }
     ],
-    'class-methods-use-this': 0
+    "class-methods-use-this": 0
   }
 };

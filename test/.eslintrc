@@ -1,0 +1,3 @@
+{
+  "extends": "@softboxlab/eslint-config-gandalf-lint"
+}
