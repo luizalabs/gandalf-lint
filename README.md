@@ -13,12 +13,12 @@
 ## Install
 Dependencies via NPM:
 ```bash
-npm install --save-dev eslint @softboxlab/eslint-config-gandalf-lint eslint-config-standard eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-sort-imports-es6-autofix eslint-plugin-standard eslint-plugin-vue
+npm install --save-dev eslint @softboxlab/eslint-config-gandalf-lint
 ```
 
 or via yarn:
 ```bash
-yarn add --dev eslint @softboxlab/eslint-config-gandalf-lint eslint-config-standard eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-sort-imports-es6-autofix eslint-plugin-standard eslint-plugin-vue
+yarn add --dev eslint @softboxlab/eslint-config-gandalf-lint
 ```
 
 ## Configure
@@ -49,6 +49,8 @@ or using yarn:
 ```bash
 yarn glint
 ```
+
+## Autorun it?
 
 **If you don't fell like creating any scripts, feel free to have your files linted on the fly by your IDE (did you remember to install the `eslint` plugin on your IDE?)**
 
