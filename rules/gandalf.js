@@ -339,7 +339,11 @@ module.exports = {
     ],
     'sort-keys': 'error',
     'sort-vars': 'error',
-    'sort-imports': 'error',
+    'sort-imports': ['error', {
+      'ignoreCase': true,
+      'ignoreDeclarationSort': true,
+      'ignoreMemberSort': false,
+    }],
     'complexity': [
       'error',
       3
