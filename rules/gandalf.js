@@ -314,7 +314,7 @@ module.exports = {
     'no-mixed-operators': 'error',
     'nonblock-statement-body-position': [
       'error',
-      'below'
+      'beside'
     ],
     'brace-style': 'error',
     'no-else-return': ['error', { allowElseIf: false }],
