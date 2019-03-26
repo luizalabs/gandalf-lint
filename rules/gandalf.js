@@ -259,10 +259,9 @@ module.exports = {
     ],
     'prefer-arrow-callback': 'error',
     'arrow-spacing': 'error',
-    'arrow-parens': [
-      'error',
-      'always'
-    ],
+    'arrow-parens': ['error', 'as-needed', {
+      'requireForBlockBody': true
+    }],
     'arrow-body-style': [
       'error',
       'as-needed'
