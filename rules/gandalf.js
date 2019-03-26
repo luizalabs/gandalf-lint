@@ -266,7 +266,7 @@ module.exports = {
       'error',
       'as-needed'
     ],
-    'no-confusing-arrow': 'error',
+    'no-confusing-arrow': ['error', { 'allowParens': true }],
     'implicit-arrow-linebreak': [
       'error',
       'beside'
