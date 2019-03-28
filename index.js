@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    'standard',
+    'eslint-config-standard',
     './rules/gandalf'
   ].map(require.resolve),
   parserOptions: {
