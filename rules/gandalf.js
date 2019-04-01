@@ -324,7 +324,7 @@ module.exports = {
     ],
     'no-new-wrappers': 'error',
     'radix': 'error',
-    'id-length': 'error',
+    'id-length': 'warning',
     'camelcase': 'error',
     'new-cap': [
       'error',
