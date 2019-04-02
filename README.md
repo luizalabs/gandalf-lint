@@ -8,24 +8,18 @@
 ## Install
 NPM:
 ```bash
-npm install --save-dev @softboxlab/eslint-config-gandalf-lint
+npm install --save-dev eslint @softboxlab/eslint-config-gandalf-lint
 ```
 
 Yarn:
 ```bash
-yarn add --dev @softboxlab/eslint-config-gandalf-lint
-```
-
-Our default export contains all of our ESLint rules. Install the correct versions of each package, which are listed by the command:
-
-```bash
-npx install-peerdeps --dev @softboxlab/eslint-config-gandalf-lint
+yarn add --dev eslint @softboxlab/eslint-config-gandalf-lint
 ```
 
 ## Requirements
 
 - [npm](https://www.npmjs.com/) `^5.0.0`
-- [ESLint](http://eslint.org/) `^5.15.3`
+- [ESLint](http://eslint.org/) `^5.12.0`
 
 ## Configure
 Call the white wizard by creating a `.eslintrc` file on your root project and writing in it:
