@@ -10,10 +10,7 @@ module.exports = {
 
     'block-scoped-var': 'error',
 
-
-    'class-methods-use-this': ['error', {
-      exceptMethods: [],
-    }],
+    'class-methods-use-this': 0,
 
     'consistent-return': 'error',
 
@@ -21,9 +18,7 @@ module.exports = {
 
     'default-case': ['error', { commentPattern: '^no default$' }],
 
-
     'dot-location': ['error', 'property'],
-
 
     'guard-for-in': 'error',
 
@@ -33,9 +28,7 @@ module.exports = {
 
     'no-caller': 'error',
 
-
     'no-div-regex': 'off',
-
 
     'no-empty-function': ['error', {
       allow: [
@@ -48,7 +41,6 @@ module.exports = {
     'no-empty-pattern': 'error',
 
     'no-eq-null': 'off',
-
 
     'no-extend-native': 'error',
 
@@ -76,7 +68,6 @@ module.exports = {
 
     'no-invalid-this': 'off',
 
-
     'no-labels': ['error', { allowLoop: false, allowSwitch: false }],
 
     'no-lone-blocks': 'error',
@@ -98,12 +89,9 @@ module.exports = {
 
     'no-new': 'error',
 
-
-
     'no-octal': 'error',
 
     'no-octal-escape': 'error',
-
 
     'no-proto': 'error',
 
@@ -175,9 +163,7 @@ module.exports = {
 
     'no-unused-labels': 'error',
 
-
     'no-useless-concat': 'error',
-
 
     'no-useless-return': 'error',
 
@@ -189,11 +175,9 @@ module.exports = {
 
     'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
 
-
     'require-await': 'off',
 
     'vars-on-top': 'error',
-
 
     yoda: 'error',
 
@@ -259,15 +243,14 @@ module.exports = {
     ],
     'prefer-arrow-callback': 'error',
     'arrow-spacing': 'error',
-    'arrow-parens': [
-      'error',
-      'always'
-    ],
+    'arrow-parens': ['error', 'as-needed', {
+      'requireForBlockBody': true
+    }],
     'arrow-body-style': [
       'error',
       'as-needed'
     ],
-    'no-confusing-arrow': 'error',
+    'no-confusing-arrow': ['error', { 'allowParens': true }],
     'implicit-arrow-linebreak': [
       'error',
       'beside'
@@ -314,7 +297,7 @@ module.exports = {
     'no-mixed-operators': 'error',
     'nonblock-statement-body-position': [
       'error',
-      'below'
+      'beside'
     ],
     'brace-style': 'error',
     'no-else-return': ['error', { allowElseIf: false }],
@@ -339,7 +322,11 @@ module.exports = {
     ],
     'sort-keys': 'error',
     'sort-vars': 'error',
-    'sort-imports': 'error',
+    'sort-imports': ['error', {
+      'ignoreCase': true,
+      'ignoreDeclarationSort': true,
+      'ignoreMemberSort': false,
+    }],
     'complexity': [
       'error',
       3

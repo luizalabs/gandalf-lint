@@ -1,25 +1,25 @@
 # gandalf-lint
 
-<p align="center">
-	<img src="https://img00.deviantart.net/51e6/i/2004/144/1/b/you_shall_not_pass.jpg"/><br/>
-	image source: <a href="https://www.deviantart.com/captaind/art/you-shall-not-pass-7505473">Deviantart - CaptainD</a>
-</p>
-
-
-<h3 align="center" style="font-weight: bold;">
-  <b>BAD CODE SHALL NOT PASS!</b>
-</h3>
+<div align="center">
+	<img src="https://media.giphy.com/media/8abAbOrQ9rvLG/giphy.gif" /><br/>
+  Bad Code Shall Not Pass
+</div>
 
 ## Install
-Dependencies via NPM:
+NPM:
 ```bash
 npm install --save-dev eslint @softboxlab/eslint-config-gandalf-lint
 ```
 
-or via yarn:
+Yarn:
 ```bash
 yarn add --dev eslint @softboxlab/eslint-config-gandalf-lint
 ```
+
+## Requirements
+
+- [npm](https://www.npmjs.com/) `^5.0.0`
+- [ESLint](http://eslint.org/) `^5.12.0`
 
 ## Configure
 Call the white wizard by creating a `.eslintrc` file on your root project and writing in it:
@@ -32,10 +32,10 @@ Call the white wizard by creating a `.eslintrc` file on your root project and wr
 Remember to add the `eslint` plugin on your favorite IDE, like this one: [ESLint for VSCode](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 ## Usage
-If you want you can create a script on your `package.json` file like so:
+You can create a script on your `package.json` file like so:
 ```json
 "scripts": {
-  "glint": "./node_modules/.bin/eslint ./{YOUR_PROJECT}/*.js"
+  "glint": "eslint --ext .js PROJECT_FOLDER"
 }
 ```
 
@@ -44,17 +44,32 @@ And use your magic script for shall not pass any bad code:
 npm run glint
 ```
 
+And with fireworks you can automagically fix some errors:
+```bash
+npm run glint --fix
+```
+
 or using yarn:
 
 ```bash
 yarn glint
+yarn glint --fix
 ```
 
 ## Autorun it?
 
 **If you don't fell like creating any scripts, feel free to have your files linted on the fly by your IDE (did you remember to install the `eslint` plugin on your IDE?)**
 
+---
 
+<div align="center">
+	<img src="https://media.giphy.com/media/TcdpZwYDPlWXC/giphy.gif"/><br/>
+  Gandalf approves
+</div>
+
+## Contributors
+
+  - [View Contributors](https://github.com/SoftboxLab/gandalf-lint/graphs/contributors)
 
 # License
 
