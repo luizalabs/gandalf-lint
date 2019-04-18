@@ -115,6 +115,11 @@ module.exports = {
       allowTaggedTemplates: false,
     }],
     'no-unused-labels': 'error',
+    'no-use-before-define': ['error', {
+      'functions': true,
+      'classes': true,
+      'variables': true
+    }],
     'no-useless-concat': 'error',
     'no-useless-return': 'error',
     'no-void': 'error',
@@ -154,8 +159,9 @@ module.exports = {
     'no-eval': 'error',
     'no-useless-escape': 'error',
     'func-style': [
-      'off',
-      'expression'
+      'error',
+      'expression',
+      { 'allowArrowFunctions': true }
     ],
     'wrap-iife': [
       'error',
