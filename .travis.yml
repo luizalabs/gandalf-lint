@@ -7,9 +7,9 @@ branch:
   - master
 deploy:
   provider: npm
-  email: pablohpsilva@gmail.com
+  email: "$EMAIL"
   api_key:
-    secure: PMN0z69hL/sr5LIyuD13deSk6KImqkjImUE5CZX34CdMsK9daQnkIKQlomLvPyhirqqw0M1j1Wpti7IwtbF0Izctq0E0P6uAWCxQwdKKOxyRbt/PmaFGMSfSzU64gUTas+ZQDm1VWE5fg6VdA0eiQ5sDTpsgtvMmUCrTFfoPGvkDQL1SwIEU1znfkonTxZ+cfKS1x8v9SiAd/w0+dJTqc7ErgL+IzUPI/NmZBVlikn8QPELjW+KQQttcZFoh7KHeRf38M+FBTLHUo4kOFpzlc4WEywy/UOEEeyCzukbApUe6135BmS4iibHRoYxjNhs4P48MeI2Rp4RPn3bN1SDckaO/1Be7RSuByVBW4BHqAhtboVTzQ6wqo77f2sC3HOonRGIidf+dmSYGvldA/cXeP3uC0symQw3vTuCMQw63Om35RhWL1VHyJK/PIPphOkrA6lcH1oCxKwIwmFnVh68Sj1KzdRIkVfevpui0i5VEpuSd2WZxzsZIuGhzTl36E/r4/rh4CVdhIq5kKqkGDpObwaL/jryqp96Qk3olh3JjYGjcMGPfcLNSzdOvxV1ilAxOMHObQxfF8NOFJ5kd2Xp6sEnBSk49avSLoEhfI1t0YWp5h4mAMCO9JsuLdDzvVc/bpObInkc6hOfHJA+0vMhHBMyxRmCf9dqcMHumgpYFhhM=
+    secure: "$NPM_API_KEY"
   on:
     tags: true
     repo: SoftboxLab/gandalf-lint
