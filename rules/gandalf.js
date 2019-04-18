@@ -286,7 +286,7 @@ module.exports = {
       'error',
       'after'
     ],
-    'no-unused-vars': 'error',
+    'no-unused-vars': ['error', { 'ignoreRestSiblings': true }],
     'eqeqeq': [
       'error',
       'always'
