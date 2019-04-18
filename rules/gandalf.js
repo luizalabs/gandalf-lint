@@ -5,31 +5,18 @@ module.exports = {
   },
   rules: {
     'accessor-pairs': 'off',
-
     'array-callback-return': ['error', { allowImplicit: true }],
-
     'block-scoped-var': 'error',
-
     'class-methods-use-this': 0,
-
     'consistent-return': 'error',
-
     curly: ['error', 'multi-line'],
-
     'default-case': ['error', { commentPattern: '^no default$' }],
-
     'dot-location': ['error', 'property'],
-
     'guard-for-in': 'error',
-
     'max-classes-per-file': ['off', 1],
-
     'no-alert': 'warn',
-
     'no-caller': 'error',
-
     'no-div-regex': 'off',
-
     'no-empty-function': ['error', {
       allow: [
         'arrowFunctions',
@@ -37,66 +24,42 @@ module.exports = {
         'methods',
       ]
     }],
-
     'no-empty-pattern': 'error',
-
     'no-eq-null': 'off',
-
     'no-extend-native': 'error',
-
     'no-extra-bind': 'error',
-
     'no-extra-label': 'error',
-
     'no-fallthrough': 'error',
-
     'no-floating-decimal': 'error',
-
     'no-global-assign': ['error', { exceptions: [] }],
     'no-native-reassign': 'off',
-
     'no-implicit-coercion': ['off', {
       boolean: false,
       number: true,
       string: true,
       allow: [],
     }],
-
     'no-implicit-globals': 'off',
-
     'no-implied-eval': 'error',
-
     'no-invalid-this': 'off',
-
     'no-labels': ['error', { allowLoop: false, allowSwitch: false }],
-
     'no-lone-blocks': 'error',
-
     'no-loop-func': 'error',
-
     'no-magic-numbers': ['off', {
       ignore: [],
       ignoreArrayIndexes: true,
       enforceConst: true,
       detectObjects: false,
     }],
-
     'no-multi-spaces': ['error', {
       ignoreEOLComments: false,
     }],
-
     'no-multi-str': 'error',
-
     'no-new': 'error',
-
     'no-octal': 'error',
-
     'no-octal-escape': 'error',
-
     'no-proto': 'error',
-
     'no-redeclare': 'error',
-
     'no-restricted-properties': ['error', {
       object: 'arguments',
       property: 'callee',
@@ -136,51 +99,31 @@ module.exports = {
         property: 'pow',
         message: 'Use the exponentiation operator (**) instead.',
       }],
-
     'no-return-assign': ['error', 'always'],
-
     'no-return-await': 'error',
-
     'no-script-url': 'error',
-
     'no-self-assign': ['error', {
       props: false,
     }],
-
     'no-self-compare': 'error',
-
     'no-sequences': 'error',
-
     'no-throw-literal': 'error',
-
     'no-unmodified-loop-condition': 'off',
-
     'no-unused-expressions': ['error', {
       allowShortCircuit: false,
       allowTernary: false,
       allowTaggedTemplates: false,
     }],
-
     'no-unused-labels': 'error',
-
     'no-useless-concat': 'error',
-
     'no-useless-return': 'error',
-
     'no-void': 'error',
-
     'no-warning-comments': ['off', { terms: ['todo', 'fixme', 'xxx'], location: 'start' }],
-
     'no-with': 'error',
-
     'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
-
     'require-await': 'off',
-
     'vars-on-top': 'error',
-
     yoda: 'error',
-
     'prefer-destructuring': [
       'error',
       {
