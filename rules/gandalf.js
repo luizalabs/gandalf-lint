@@ -158,6 +158,7 @@ module.exports = {
     ],
     'no-eval': 'error',
     'no-useless-escape': 'error',
+    'func-names': ['error', 'as-needed'],
     'func-style': [
       'error',
       'expression',
