@@ -289,6 +289,7 @@ module.exports = {
     'import/imports-first': 'off',
     'import/no-mutable-exports': 'error',
     'import/order': ['error', {
+      'newlines-between': 'never',
       'groups': [
         [
           'builtin',
