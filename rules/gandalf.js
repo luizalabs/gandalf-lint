@@ -302,14 +302,14 @@ module.exports = {
     'import/newline-after-import': 'error',
     'import/no-absolute-path': 'error',
     'import/no-internal-modules': 'off',
-    'import/no-anonymous-default-export': ['off',
+    'import/no-anonymous-default-export': ['error',
       {
         'allowArray': false,
         'allowArrowFunction': false,
         'allowAnonymousClass': false,
         'allowAnonymousFunction': false,
         'allowLiteral': false,
-        'allowObject': false
+        'allowObject': true
       }
     ],
     'import/no-useless-path-segments': ['error', {
