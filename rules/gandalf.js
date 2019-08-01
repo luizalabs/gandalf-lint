@@ -284,9 +284,7 @@ module.exports = {
     'no-var': 'error',
     'no-useless-call': 'error',
     'strict': 'error',
-    //import rules
     'import/first': 'error',
-    'import/imports-first': 'off',
     'import/no-mutable-exports': 'error',
     'import/order': ['error', {
       'newlines-between': 'never',
@@ -294,14 +292,16 @@ module.exports = {
         [
           'builtin',
           'external',
+          'internal',
           'parent',
-          'internal'
+          'sibling',
+          'index'
         ]
       ]
     }],
     'import/newline-after-import': 'error',
     'import/no-absolute-path': 'error',
-    'import/no-internal-modules': ['off', { 'allow': [] }],
+    'import/no-internal-modules': 'off',
     'import/no-anonymous-default-export': ['off',
       {
         'allowArray': false,
@@ -312,7 +312,9 @@ module.exports = {
         'allowObject': false
       }
     ],
-    'import/no-useless-path-segments': 'error',
+    'import/no-useless-path-segments': ['error', {
+      'noUselessIndex': true
+    }],
     'import/no-relative-parent-imports': 'off'
   }
 }
