@@ -283,6 +283,38 @@ module.exports = {
     ],
     'no-var': 'error',
     'no-useless-call': 'error',
-    'strict': 'error'
+    'strict': 'error',
+    'import/first': 'error',
+    'import/no-mutable-exports': 'error',
+    'import/order': ['error', {
+      'newlines-between': 'never',
+      'groups': [
+        [
+          'builtin',
+          'external',
+          'internal',
+          'parent',
+          'sibling',
+          'index'
+        ]
+      ]
+    }],
+    'import/newline-after-import': 'error',
+    'import/no-absolute-path': 'error',
+    'import/no-internal-modules': 'off',
+    'import/no-anonymous-default-export': ['error',
+      {
+        'allowArray': false,
+        'allowArrowFunction': false,
+        'allowAnonymousClass': false,
+        'allowAnonymousFunction': false,
+        'allowLiteral': false,
+        'allowObject': true
+      }
+    ],
+    'import/no-useless-path-segments': ['error', {
+      'noUselessIndex': true
+    }],
+    'import/no-relative-parent-imports': 'off'
   }
 }
