@@ -1,6 +1,6 @@
 {
   "name": "@softboxlab/eslint-config-gandalf-lint",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Your bad code shall not pass",
   "main": "index.js",
   "scripts": {
