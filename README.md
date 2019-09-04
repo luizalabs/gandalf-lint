@@ -1,3 +1,9 @@
+![npm](https://img.shields.io/npm/v/@softboxlab/eslint-config-gandalf-lint)
+![build](https://img.shields.io/travis/SoftboxLab/gandalf-lint)
+![size](https://img.shields.io/bundlephobia/min/@softboxlab/eslint-config-gandalf-lint)
+![dependencies](https://img.shields.io/david/SoftboxLab/gandalf-lint)
+![GitHub](https://img.shields.io/github/license/SoftboxLab/gandalf-lint)
+
 # gandalf-lint
 
 <div align="center">
