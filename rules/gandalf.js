@@ -279,7 +279,7 @@ module.exports = {
     }],
     'complexity': [
       'error',
-      3
+      4
     ],
     'no-var': 'error',
     'no-useless-call': 'error',
