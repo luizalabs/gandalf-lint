@@ -270,13 +270,6 @@ module.exports = {
       'error',
       'event'
     ],
-    'sort-keys': 'error',
-    'sort-vars': 'error',
-    'sort-imports': ['error', {
-      'ignoreCase': true,
-      'ignoreDeclarationSort': true,
-      'ignoreMemberSort': false,
-    }],
     'complexity': [
       'error',
       4
