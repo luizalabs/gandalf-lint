@@ -183,9 +183,7 @@ module.exports = {
       'imports': 'never',
       'exports': 'never',
       'functions': 'never'
-    },
-      'always-multiline'
-    ],
+    }],
     "max-params": ["error", 3],
     'space-before-blocks': 'error',
     'no-param-reassign': 'error',
