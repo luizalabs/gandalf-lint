@@ -183,7 +183,9 @@ module.exports = {
       'imports': 'never',
       'exports': 'never',
       'functions': 'never'
-    }],
+    },
+      'always-multiline'
+    ],
     'space-before-blocks': 'error',
     'no-param-reassign': 'error',
     'prefer-spread': 'error',
