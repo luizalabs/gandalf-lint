@@ -184,7 +184,7 @@ module.exports = {
       'exports': 'never',
       'functions': 'never'
     }],
-    "max-params": ['error', 3],
+    'max-params': ['error', 3],
     'space-before-blocks': 'error',
     'no-param-reassign': 'error',
     'prefer-spread': 'error',
