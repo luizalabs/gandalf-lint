@@ -177,7 +177,13 @@ module.exports = {
       'error',
       'always'
     ],
-    'comma-dangle': ['error', 'always-multiline'],
+    'comma-dangle': ['error', {
+      'arrays': 'never',
+      'objects': 'never',
+      'imports': 'never',
+      'exports': 'never',
+      'functions': 'never'
+    }],
     'max-params': ['error', 3],
     'space-before-blocks': 'error',
     'no-param-reassign': 'error',
