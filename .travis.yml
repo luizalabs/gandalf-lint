@@ -1,10 +1,14 @@
 language: node_js
-node_js:
-- 9.10.0
+node_js: node
 sudo: false
-branch:
+cache:
+  directories:
+    - node_modules
+branches:
   only:
-  - master
+  - feature/semver
+before_deploy:
+  - npx semantic-release
 deploy:
   provider: npm
   email: "$EMAIL"
@@ -13,3 +17,19 @@ deploy:
   on:
     tags: true
     repo: SoftboxLab/gandalf-lint
+
+
+language: node_js
+
+node_js:
+  - 8
+  - 6
+
+jobs:
+  include:
+    - stage: release
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - npx semantic-release

@@ -8,11 +8,12 @@
     "release:tags": "git push && git push --tags",
     "release:patch": "npm version patch && npm run release:tags",
     "release:minor": "npm version minor && npm run release:tags",
-    "release:major": "npm version major && npm run release:tags"
+    "release:major": "npm version major && npm run release:tags",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SoftboxLab/gandalf-lint.git"
+    "url": "https://github.com/SoftboxLab/gandalf-lint.git"
   },
   "keywords": [
     "eslint",
@@ -53,5 +54,8 @@
   },
   "peerDependencies": {
     "eslint": "^5.12.0"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.13.24"
   }
 }
