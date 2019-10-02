@@ -177,15 +177,7 @@ module.exports = {
       'error',
       'always'
     ],
-    'comma-dangle': ['error', {
-      'arrays': 'never',
-      'objects': 'never',
-      'imports': 'never',
-      'exports': 'never',
-      'functions': 'never'
-    },
-      'always-multiline'
-    ],
+    'comma-dangle': ['error', 'always-multiline'],
     'space-before-blocks': 'error',
     'no-param-reassign': 'error',
     'prefer-spread': 'error',
