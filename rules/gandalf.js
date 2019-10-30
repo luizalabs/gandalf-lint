@@ -308,6 +308,7 @@ module.exports = {
     'import/no-useless-path-segments': ['error', {
       'noUselessIndex': true
     }],
-    'import/no-relative-parent-imports': 'off'
+    'import/no-relative-parent-imports': 'off',
+    'lines-between-class-members': ['error', 'always']
   }
 }
