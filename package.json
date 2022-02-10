@@ -34,7 +34,8 @@
   "contributors": [
     "Lucas Vilaboim <lucas@vilaboim.com> (https://vilaboim.com)",
     "Marlon Maxwel <marlonmleite@gmail.com>",
-    "Victor Maestri <victormaestri@softbox.com.br>"
+    "Victor Maestri <victormaestri.f@gmail.com>",
+    "Rafael Lincoln <rafalincolnpa@gmail.com>"
   ],
   "license": "MIT",
   "bugs": {
@@ -45,13 +46,12 @@
     "test": "test"
   },
   "dependencies": {
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0"
   },
   "peerDependencies": {
-    "eslint": "^5.12.0 || ^5.16.0 || ^6.8.0 || ^7.22.0"
+    "eslint": "^5.12.0 || ^5.16.0 || ^6.8.0 || ^7.22.0 || ^8.8.0"
   }
 }
